@@ -84,7 +84,7 @@ function draw(){
     ellipse(500, (windowHeight/2)-5,50,50);
     ellipse(610, (windowHeight/2)-5,50,50);
   }else if(mouseIsPressed && mouseX>400 && mouseX<700 && mouseY>200 && mouseY<500){
-      image(mustache,(windowWidth/2)-74,320, mustache.width/6, mustache.height/6);
+      image(mustache,(windowWidth/2)-79,350, mustache.width/20, mustache.height/20);
 
       fill("#0B0B61");
       ellipse(500, windowHeight/2,90,90);
